@@ -1,35 +1,35 @@
 
-# 📘 Assignment: Hangman Game
+# 📘 Atividade: Jogo da Forca
 
-## 🎯 Objective
+## 🎯 Objetivo
 
-Build a classic word-guessing game using strings, loops, conditionals, and user input in Python. This activity will help you practice random selection, string manipulation, and game-state tracking.
+Construa um jogo clássico de adivinhação de palavras usando strings, loops, condicionais e entrada de dados em Python. Esta atividade ajudará você a praticar seleção aleatória, manipulação de strings e controle do estado do jogo.
 
-## 📝 Tasks
+## 📝 Tarefas
 
-### 🛠️ Create the Word Selection and Game Setup
-
-#### Description
-Create the initial structure of the Hangman game by defining a list of words, selecting one at random, and preparing the hidden word display.
-
-#### Requirements
-The completed program must:
-
-- Use a predefined list of words and choose one randomly.
-- Display the hidden word as underscores, such as `_ _ _ _ _`.
-- Keep track of the letters already guessed by the player.
-- Ask the player to enter a letter and validate the input.
-
-### 🛠️ Implement the Game Logic and End Conditions
+### 🛠️ Criar a Seleção da Palavra e Configurar o Jogo
 
 #### Description
-Develop the main gameplay loop so the player can guess letters until the word is revealed or the attempts run out.
+Crie a estrutura inicial do jogo da forca definindo uma lista de palavras, selecionando uma palavra aleatoriamente e preparando a exibição da palavra oculta.
 
 #### Requirements
-The completed program must:
+O programa concluído deve:
 
-- Show the current progress after each guess, e.g. `H _ N _ A _`.
-- Count incorrect attempts and reduce the remaining lives.
-- Allow repeated guesses without losing progress for correctly repeated letters.
-- End the game when the word is fully guessed or when the player runs out of tries.
-- Display a win message when the word is completed and a loss message when the attempts are exhausted.
+- Usar uma lista predefinida de palavras e escolher uma delas aleatoriamente.
+- Exibir a palavra oculta como sublinhados, por exemplo, `_ _ _ _ _`.
+- Manter o controle das letras já informadas pelo jogador.
+- Pedir ao jogador que informe uma letra e validar a entrada.
+
+### 🛠️ Implementar a Lógica do Jogo e as Condições de Encerramento
+
+#### Description
+Desenvolva o loop principal para que o jogador possa adivinhar letras até revelar a palavra ou esgotar as tentativas.
+
+#### Requirements
+O programa concluído deve:
+
+- Mostrar o progresso atual após cada palpite, por exemplo, `H _ N _ A _`.
+- Contar as tentativas incorretas e reduzir o número de vidas restantes.
+- Permitir palpites repetidos sem perder o progresso quando as letras repetidas estiverem corretas.
+- Encerrar o jogo quando a palavra for totalmente descoberta ou quando o jogador ficar sem tentativas.
+- Exibir uma mensagem de vitória quando a palavra for concluída e uma mensagem de derrota quando as tentativas acabarem.
