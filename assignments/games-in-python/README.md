@@ -1,19 +1,35 @@
 
-# 🎮 Desafio: Jogo da Forca
+# 📘 Assignment: Hangman Game
 
-Construa o clássico jogo de adivinhar palavras usando strings, loops e entrada de dados do usuário em Python.
+## 🎯 Objective
 
-## 🎯 O Que Você Vai Construir
+Build a classic word-guessing game using strings, loops, conditionals, and user input in Python. This activity will help you practice random selection, string manipulation, and game-state tracking.
 
-Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
+## 📝 Tasks
 
-**Habilidades praticadas:** Manipulação de strings, loops, condicionais, seleção aleatória
+### 🛠️ Create the Word Selection and Game Setup
 
-## ✅ Requisitos Obrigatórios
+#### Description
+Create the initial structure of the Hangman game by defining a list of words, selecting one at random, and preparing the hidden word display.
 
-Seu jogo deve:
-- Selecionar palavras aleatoriamente de uma lista predefinida
-- Aceitar palpites de letras e mostrar o progresso atual (formato _ _ _)
-- Rastrear tentativas incorretas restantes
-- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
-- Exibir mensagens de vitória/derrota
+#### Requirements
+The completed program must:
+
+- Use a predefined list of words and choose one randomly.
+- Display the hidden word as underscores, such as `_ _ _ _ _`.
+- Keep track of the letters already guessed by the player.
+- Ask the player to enter a letter and validate the input.
+
+### 🛠️ Implement the Game Logic and End Conditions
+
+#### Description
+Develop the main gameplay loop so the player can guess letters until the word is revealed or the attempts run out.
+
+#### Requirements
+The completed program must:
+
+- Show the current progress after each guess, e.g. `H _ N _ A _`.
+- Count incorrect attempts and reduce the remaining lives.
+- Allow repeated guesses without losing progress for correctly repeated letters.
+- End the game when the word is fully guessed or when the player runs out of tries.
+- Display a win message when the word is completed and a loss message when the attempts are exhausted.
